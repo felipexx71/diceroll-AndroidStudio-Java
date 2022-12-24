@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void oneDice(View view) {
-        dice.setImage1(findViewById(R.id.imageView));
+        dice.setImage1(findViewById(R.id.image1));
 
         switch (func.randomNumOne()) {
             case 1:
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void twoDice(View view) {
-        dice.setImage1(findViewById(R.id.imageView));
-        dice.setImage2(findViewById(R.id.imageView2));
+        dice.setImage1(findViewById(R.id.image1));
+        dice.setImage2(findViewById(R.id.image2));
 
         switch (func.randomNumOne()) {
             case 1:
